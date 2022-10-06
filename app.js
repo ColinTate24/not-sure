@@ -16,18 +16,19 @@ app.get('/', function (req, res) {
     // res.sendFile(path.join(__dirname, "index.html" )); 
     // res.send('Hello ' + userName + ' from Node/Express/Heroku');
 
-    client.connect(err => {
-        const collection = client.db("test").collection("devices");
+    client.connect;
+
+        const collection = client.db("Cluster0").collection("posts");
         console.log('connected!');
         // perform actions on the collection object
        
         console.log('closed!');
 
     
-        const result = collection.find().toArray();
-         console.log(result.title);
+        const result = await collection.findOne(); //.toArray();
+         console.log(result.titlenp);
             
-            res.send(result.title);
+            res.send(result);
             // client.close();
         
     });
