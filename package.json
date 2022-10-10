@@ -2,7 +2,7 @@
   "dependencies": {
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "fund": "^1.0.0",
     "mongodb": "^4.10.0"
   },
@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/ColinTate24/quebec/issues"
   },
-  "homepage": "https://github.com/ColinTate24/quebec#readme"
+  "homepage": "https://github.com/ColinTate24/quebec#readme",
+  "devDependencies": {}
 }

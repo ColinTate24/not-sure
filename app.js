@@ -12,7 +12,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.set('view engine', 'ejs');
 
-app.get('/', function (req, res) {
+app.get('/', async function (req, res) {
     // res.sendFile(path.join(__dirname, "index.html" )); 
     // res.send('Hello ' + userName + ' from Node/Express/Heroku');
 
@@ -33,9 +33,7 @@ app.get('/', function (req, res) {
         
     });
 
-        // res.send(`Hello Express from inside my client connect f/n!`); 
-});
-
+        // res.send(`Hello Express from inside my client connect f/n!`);
     
 
     // res.render('index',  {     }    );
