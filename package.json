@@ -11,12 +11,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start" : "node hello-node.js"
+    "start": "node hello-node.js"
   },
   "engines": {
-       "node": "16.x" , 
-       "npm": "8.x"
-     },
+    "node": "16.x",
+    "npm": "8.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ColinTate24/quebec.git"
@@ -27,6 +27,5 @@
   "bugs": {
     "url": "https://github.com/ColinTate24/quebec/issues"
   },
-  "homepage": "https://github.com/ColinTate24/quebec#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/ColinTate24/quebec#readme"
 }
